@@ -17,4 +17,9 @@ map.set('IN', "India")
 map.set('UK', "United Kingdom")
 map.set('FR', "France")
 //insertion order preserved and no duplicates allowed
-console.log(map);
+// console.log(map);
+
+for (const [key, value] of map) {
+    console.log(key, ':', value);
+    
+}
