@@ -20,6 +20,16 @@ map.set('FR', "France")
 // console.log(map);
 
 for (const [key, value] of map) {
-    console.log(key, ':', value);
+    // console.log(key, ':', value);
     
 }
+
+const obj = {
+    'game1' : 'nfs',
+    'game2' : 'gta',
+    'game3' : 'spiderman'
+}
+
+// for (const [key , value] of obj) {
+//     console.log(key, ':', value);
+// }  Objects are not iteratable
